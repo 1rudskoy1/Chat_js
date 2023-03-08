@@ -1,3 +1,3 @@
-import './module.js'
-import './scss/index.scss'
-console.log("Welcome to hell");
+import './module.js';
+import './scss/index.scss';
+console.log('Welcome to hell');

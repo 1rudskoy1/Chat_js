@@ -1,0 +1,47 @@
+$bgColor: #17212b;
+$bgColorBlack: #0e1621;
+$messageActive: #2b5278;
+$messageText: #7f91a4;
+$messageLastMessage: #48a2f5;
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+}
+.window{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.navigation{
+    width: 100px;
+    background-color: $bgColorBlack;
+}
+.nav{
+    text-align: center;
+}
+.nav-items{
+    color: #7f91a4;
+    padding: 0;
+}
+.nav-item{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+}
+.nav-item__icon{
+    font-size: 24px;
+}
+.nav-item__text{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.nav-burger{
+    font-size: 20px;
+    margin-bottom: 20px;
+}

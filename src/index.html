@@ -6,11 +6,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shorticon icon" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>Online Chat</title>
 </head>
 
 <body>
-    <div id="app" class="container"></div>
+    <div id="app" class="container">
+        <div class="window">
+            <div class="navigation">
+                <nav class="nav">
+                    <ul class="nav-items">
+                        <li class="nav-item nav-burger">
+                            <i class="fa-solid fa-bars"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="nav-item__icon fa-solid fa-folder"></i>
+                            <span class="nav-item__text">Все чаты</span>
+                        </li>
+                        <li class="nav-item">
+                            <i class="nav-item__icon fa-solid fa-folder"></i>
+                            <span class="nav-item__text">Работа</span>
+                        </li>
+                        <li class="nav-item">
+                            <i class="nav-item__icon fa-solid fa-gears"></i>
+                            <span class="nav-item__text">Ред.</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="chat-list">
+                <div class="search">
+                    <input type="text" name="" class="search__input">
+                </div>
+                <div class="chat-items">
+                    <ul class="chat-item">
+                        <img src="#" alt="" class="chat-item__image">
+                        <div class="chat-description">
+                            <h3 class="chat-description__name">Бочонок</h3>
+                            <p class="chat-description__last-message">Ты шо?</p>
+                        </div>
+                    </ul>
+                    <div class="time-last-message">
+                        28.02.2023
+                    </div>
+                </div>
+                <div class="chat-items">
+                    <ul class="chat-item">
+                        <img src="#" alt="" class="chat-item__image">
+                        <div class="chat-description">
+                            <h3 class="chat-description__name">Бочонок</h3>
+                            <p class="chat-description__last-message">Ты шо?</p>
+                        </div>
+                    </ul>
+                    <div class="time-last-message">
+                        28.02.2023
+                    </div>
+                </div>
+                <div class="chat-items">
+                    <ul class="chat-item">
+                        <img src="#" alt="" class="chat-item__image">
+                        <div class="chat-description">
+                            <h3 class="chat-description__name">Бочонок</h3>
+                            <p class="chat-description__last-message">Ты шо?</p>
+                        </div>
+                    </ul>
+                    <div class="time-last-message">
+                        28.02.2023
+                    </div>
+                </div>
+            </div>
+            <div class="window-message">
+                <div class="info-message">
+                    <div class="info-message-top">
+                        <h2 class="info-message-top__name">Просто смотри</h2>
+                        <span class="info-message-top__online">10 minute</span>
+                    </div>
+                    <div class="info-message-icons">
+                        <span class="info-message-icons__icon">P</span>
+                        <span class="info-message-icons__icon">P</span>
+                        <span class="info-message-icons__icon">P</span>
+                        <span class="info-message-icons__icon">P</span>
+                    </div>
+                </div>
+                <div class="window-message__chat">
+                    <div class="user-chat">
+                        <div class="user-chat__message">Так шо с коммодом?</div>
+                    </div>
+                    <div class="user-chat interlocutor-chat">
+                        <div class="user-chat__message interlocutor-chat__message">Так шо с коммодом?</div>
+                    </div>
+                </div>
+                <div class="window-message__bottom">
+                    <i class="window-message__icon">Ic</i>
+                    <div class="window-message__input" contenteditable="">Написать сообщение...</div>
+                    <div class="window-message-icons">
+                        <i class="window-message-icons__emoji">P</i>
+                        <i class="window-message-icons__emoji">U</i>
+                    </div>
+                </div>
+            </div>
+            <div class="emoji">
+                <div class="emoji-input">
+                    <i class="emoji-input__icon">p</i>
+                    <input type="text" class="emoji-input__input" placeholder="Поиск">
+                </div>
+                <div class="emoji-items">
+                    <h3 class="emoji-items__name">Hot Cherry</h3>
+                    <div class="emoji-list">
+                        <div class="emoji-list__sticer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
