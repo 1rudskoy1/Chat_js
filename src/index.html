@@ -36,44 +36,41 @@
             </div>
             <div class="chat-list">
                 <div class="search">
-                    <input type="text" name="" class="search__input">
+                    <input type="text" name="" class="search__input" placeholder="Поиск">
                 </div>
-                <div class="chat-items">
-                    <ul class="chat-item">
-                        <img src="#" alt="" class="chat-item__image">
+                <ul class="chat-items">
+                    <li class="chat-item chat-item-active">
+                        <img src="./favicon.png" alt="" class="chat-item__image">
                         <div class="chat-description">
                             <h3 class="chat-description__name">Бочонок</h3>
                             <p class="chat-description__last-message">Ты шо?</p>
                         </div>
-                    </ul>
-                    <div class="time-last-message">
-                        28.02.2023
-                    </div>
-                </div>
-                <div class="chat-items">
-                    <ul class="chat-item">
-                        <img src="#" alt="" class="chat-item__image">
+                        <div class="time-last-message">
+                            28.02.2023
+                            <div class="time-last-message__count">1</div>
+                        </div>
+                    </li>
+                    <li class="chat-item">
+                        <img src="./favicon.png" alt="" class="chat-item__image">
+                        <div class="chat-description">
+                            <h3 class="chat-description__name">Бочонок</h3>
+                            <p class="chat-description__last-message">Ты шошошошошошошошо?</p>
+                        </div>
+                        <div class="time-last-message">
+                            28.02.2023
+                        </div>
+                    </li>
+                    <li class="chat-item">
+                        <img src="./favicon.png" alt="" class="chat-item__image">
                         <div class="chat-description">
                             <h3 class="chat-description__name">Бочонок</h3>
                             <p class="chat-description__last-message">Ты шо?</p>
                         </div>
-                    </ul>
-                    <div class="time-last-message">
-                        28.02.2023
-                    </div>
-                </div>
-                <div class="chat-items">
-                    <ul class="chat-item">
-                        <img src="#" alt="" class="chat-item__image">
-                        <div class="chat-description">
-                            <h3 class="chat-description__name">Бочонок</h3>
-                            <p class="chat-description__last-message">Ты шо?</p>
+                        <div class="time-last-message">
+                            28.02.2023
                         </div>
-                    </ul>
-                    <div class="time-last-message">
-                        28.02.2023
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
             <div class="window-message">
                 <div class="info-message">
@@ -82,10 +79,11 @@
                         <span class="info-message-top__online">10 minute</span>
                     </div>
                     <div class="info-message-icons">
-                        <span class="info-message-icons__icon">P</span>
-                        <span class="info-message-icons__icon">P</span>
-                        <span class="info-message-icons__icon">P</span>
-                        <span class="info-message-icons__icon">P</span>
+                        <span class="info-message-icons__icon fa-solid fa-magnifying-glass"></span>
+                        <span class="info-message-icons__icon fa-solid fa-phone"></span>
+                        <span
+                            class="info-message-icons__icon info-message-icons__icon_rotate fa-regular fa-window-maximize"></span>
+                        <span class="info-message-icons__icon fa-solid fa-ellipsis-vertical"></span>
                     </div>
                 </div>
                 <div class="window-message__chat">
